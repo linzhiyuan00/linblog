@@ -24,33 +24,16 @@ module.exports = {
     sidebar:{
       '/knowledgecard/': [
           {
-            title: '前端积累',
+            title: '前端基础',
             children: [
-              '/knowledgecard/1.html',
-              '/knowledgecard/2.html',
-              '/knowledgecard/3.html',
-              '/knowledgecard/4.html',
-              '/knowledgecard/5.html',
-              '/knowledgecard/6.html',
-              '/knowledgecard/7.html',
-              '/knowledgecard/8.html',
-              '/knowledgecard/9.html',
-              '/knowledgecard/10.html',
-              '/knowledgecard/11.html',
+              '/',
+              '/js基础类型'
             ]
           }
         ],
-        '/knowledgecard/': [
-          '/knowledgecard/', 
-          {
-            title: '第二组侧边栏下拉框的标题1',
-            children: [
-              '/knowledgecard/' 
-            ]
-          }
-        ]
     },
     sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2
+    sidebarDepth: 2,
+    lastUpdated: '最后更新于',
   }
 };
