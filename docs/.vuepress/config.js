@@ -1,6 +1,6 @@
 module.exports = {
-  title: '个人主页',
-  description: 'Personal Website',
+  title: '小杰瑞',
+  description: '坚持 专注 热爱',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/images/photo.jpg' }],
     ['link', { rel: 'manifest', href: '/images/photo.jpg' }],
@@ -16,40 +16,40 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: '前端基础', link: '/accumulate/' },
-      {text: '算法题库', link: '/algorithm/'},
+      {text: '知识梳理', link: '/knowledgecard/' },
+      {text: 'bug踩坑', link: '/mybug/'},
       {text: '诗和远方', link: '/others/'},
-      {text: '微博', link: 'https://baidu.com'}      
+      {text: '掘金', link: 'https://juejin.im/user/5c7a674e6fb9a049ef274c92'}      
     ],
-    // sidebar:{
-    //   '/accumulate/': [
-    //       {
-    //         title: '前端积累',
-    //         children: [
-    //           '/accumulate/1.html',
-    //           '/accumulate/2.html',
-    //           '/accumulate/3.html',
-    //           '/accumulate/4.html',
-    //           '/accumulate/5.html',
-    //           '/accumulate/6.html',
-    //           '/accumulate/7.html',
-    //           '/accumulate/8.html',
-    //           '/accumulate/9.html',
-    //           '/accumulate/10.html',
-    //           '/accumulate/11.html',
-    //         ]
-    //       }
-    //     ],
-    //     '/algorithm/': [
-    //       '/algorithm/', 
-    //       {
-    //         title: '第二组侧边栏下拉框的标题1',
-    //         children: [
-    //           '/algorithm/' 
-    //         ]
-    //       }
-    //     ]
-    // },
+    sidebar:{
+      '/knowledgecard/': [
+          {
+            title: '前端积累',
+            children: [
+              '/knowledgecard/1.html',
+              '/knowledgecard/2.html',
+              '/knowledgecard/3.html',
+              '/knowledgecard/4.html',
+              '/knowledgecard/5.html',
+              '/knowledgecard/6.html',
+              '/knowledgecard/7.html',
+              '/knowledgecard/8.html',
+              '/knowledgecard/9.html',
+              '/knowledgecard/10.html',
+              '/knowledgecard/11.html',
+            ]
+          }
+        ],
+        '/knowledgecard/': [
+          '/knowledgecard/', 
+          {
+            title: '第二组侧边栏下拉框的标题1',
+            children: [
+              '/knowledgecard/' 
+            ]
+          }
+        ]
+    },
     sidebar: 'auto', // 侧边栏配置
     sidebarDepth: 2
   }
