@@ -21,19 +21,8 @@ module.exports = {
       {text: '诗和远方', link: '/others/'},
       {text: '掘金', link: 'https://juejin.im/user/5c7a674e6fb9a049ef274c92'}      
     ],
-    sidebar:{
-      '/knowledgecard/': [
-          {
-            title: '前端基础',
-            children: [
-              '/',
-              '/js基础类型'
-            ]
-          }
-        ],
-    },
     sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2,
+    sidebarDepth: 1,
     lastUpdated: '最后更新于',
   }
 };
